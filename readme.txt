@@ -32,12 +32,12 @@ git 笔记整理
       先创建一个目录 ,命令转到新建目录, git clone git@github.com:TzlN/16-09-01.git 这样就有项目了
 	  创建一个新文件 git add new.jsp   
 	  git commit -m "new.jsp"
-	  git push -u git@github.com:TzlN/16-09-01.git
+	  git push -u origin master
 	  
 	  再回到你自己的目录,新建文件去提交
 	  git add new1.jsp
 	  git commit -m "heihei"
-	  git push -u git@github.com:TzlN/16-09-01.git 提示不能过
+	  git push -u origin master 提示不能过
 	  这里需要先pull主分支的代码
 	  可能会有冲突,有就解决,没有就ok
 	  然后再次push
